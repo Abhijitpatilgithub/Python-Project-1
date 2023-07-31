@@ -1,0 +1,12 @@
+A=20
+B=10
+print(bin(A))
+print(bin(B))
+print(bin(A&B),A&B)
+print(A&B)
+print(bin(A|B),A|B)
+print(bin(A^B),A^B)
+A=(10,20.0,"abhiit",1+2j)
+print(A,type(A))
+my_set={1,2,3,4,5,6,7,8,9,0,"abhijit"}
+print(my_set,type(my_set))
